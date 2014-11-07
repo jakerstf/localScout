@@ -1,4 +1,4 @@
-HomeworkPlanner
+Local Scout
 ===============
 
 This is the repo for Jake Faulkner's Personal Project -- DGM 3790 Fall 2014.
