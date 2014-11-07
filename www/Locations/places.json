@@ -1,0 +1,147 @@
+[
+    {
+        "id":1,
+        "name":"City Creek Center",
+        "city":"Salt Lake City",
+        "state":"Utah",
+        "tags":"city, urban, christmas, outside",
+        "gps":"",
+        "imageURL":"img/citycreek/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    },
+
+    {
+        "id":2,
+        "name":"Canyonlands",
+        "city":"Moab",
+        "state":"Utah",
+        "tags":"red rock, desert, arches, outside",
+        "gps":"",
+        "imageURL":"img/canyonlands/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    },
+
+    {
+        "id":3,
+        "name":"Wheeler Farm",
+        "city":"Murray",
+        "state":"Utah",
+        "tags":"farm, country, barn, outside, creek, animals",
+        "gps":"",
+        "imageURL":"img/wheelerfarm/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    },
+
+    {
+        "id":4,
+        "name":"Salt Flats",
+        "city":"Wendover",
+        "state":"Utah",
+        "tags":"space, flat, water, sand, outside",
+        "gps":"",
+        "imageURL":"img/saltflats/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    },
+
+    {
+        "id":5,
+        "name":"Snowbird Ski Resort",
+        "city":"Snowbird",
+        "state":"Utah",
+        "tags":"snow, lodge, christmas, ski, snowboard, cabin, trails,  outside",
+        "gps":"",
+        "imageURL":"img/snowbird/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    },
+
+    {
+        "id":6,
+        "name":"Great Salt Lake",
+        "city":"Salt Lake City",
+        "state":"Utah",
+        "tags":"lake, boats, island, outside",
+        "gps":"",
+        "imageURL":"img/greatsaltlake/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    },
+
+    {
+        "id":7,
+        "name":"Spiral Jetty",
+        "city":"Salt Lake City",
+        "state":"Utah",
+        "tags":"lake, water, art, outside",
+        "gps":"",
+        "imageURL":"img/spiraljetty/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    },
+
+    {
+        "id":8,
+        "name":"Salt Lake City Library",
+        "city":"Salt Lake City",
+        "state":"Utah",
+        "tags":"lobby, stores, library, glass, inside, urban",
+        "gps":"",
+        "imageURL":"img/slclibrary/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    },
+
+    {
+        "id":9,
+        "name":"Main Street",
+        "city":"Park City",
+        "state":"Utah",
+        "tags":"street, stores, town, outside",
+        "gps":"",
+        "imageURL":"img/parkcitymain/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    },
+
+    {
+        "id":10,
+        "name":"Fashion Place Mall",
+        "city":"Murray",
+        "state":"Utah",
+        "tags":"mall, stores, fashion, inside",
+        "gps":"",
+        "imageURL":"img/fashionplace/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    },
+
+    {
+        "id":10,
+        "name":"McKay-Dee Hospital",
+        "city":"Ogden",
+        "state":"Utah",
+        "tags":"lobby, medical, hospital, office, inside",
+        "gps":"",
+        "imageURL":"img/mckayhospital/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    },
+
+    {
+        "id":11,
+        "name":"Grand America Hotel",
+        "city":"Salt Lake City",
+        "state":"Utah",
+        "tags":"hotel, dining room, fancy, lobby, inside",
+        "gps":"",
+        "imageURL":"img/grandamerica/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    },
+
+    {
+        "id":12,
+        "name":"UCCU Center UVU",
+        "city":"Orem Utah",
+        "state":"Utah",
+        "tags":"university, school, events center, basketball court, inside",
+        "gps":"",
+        "imageURL":"img/uccucenter/thumb.jpg",
+        "dateListed":"2014-08-02 07:45:00"
+    }
+
+
+
+]
