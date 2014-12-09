@@ -9,9 +9,9 @@ This is the repo for Jake Faulkner's Personal Project -- DGM 3790 Fall 2014.
 
     Use the following commands to get your system ready to test this app.
         
-        $ sudo npm install -g cordova
+        $ npm install -g cordova
         
-        $ sudo npm install -g ionic
+        $ npm install -g ionic
         
 
 2. **Clone This Repo To Your Local Drive**
