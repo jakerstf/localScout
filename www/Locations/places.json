@@ -1,145 +1,242 @@
 [
     {
-        "id":1,
+        "id":0,
         "name":"City Creek Center",
         "city":"Salt Lake City",
         "state":"Utah",
-        "tags":"city, urban, christmas, outside",
-        "gps":"",
+        "tags":"city, urban, christmas, outside, exterior",
+        "address":"50 South Main Street",
         "imageURL":"img/citycreek/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
+        "images":{
+            "image1":"img/citycreek/1.jpg",
+            "image2":"img/citycreek/2.jpg",
+            "image3":"img/citycreek/3.jpg",
+            "image4":"img/citycreek/4.jpg",
+            "image5":"img/citycreek/5.jpg",
+            "image6":"img/citycreek/6.jpg"
+        },
+        "dateListed":"2014-08-02 07:45:00",
+        "description":"City Creek has great water features, is upscale, and very modern. This would be a great place for photos or a scene set in a shopping district."
+    },
+
+    {
+        "id":1,
+        "name":"Canyonlands",
+        "city":"Moab",
+        "state":"Utah",
+        "tags":"red rock, desert, arches, outside, exterior",
+        "address":"La: 38.326869, Lo: -109.878259",
+        "imageURL":"img/canyonlands/thumb.jpg",
+        "images":{
+            "image1":"img/canyonlands/1.jpg",
+            "image2":"img/canyonlands/2.jpg",
+            "image3":"img/canyonlands/3.jpg",
+            "image4":"img/canyonlands/4.jpg",
+            "image5":"img/canyonlands/5.jpg",
+            "image6":"img/canyonlands/6.jpg"
+        },
+        "dateListed":"2014-09-02 07:45:00",
+        "description":"The red dirt makes this place pop! If you plan to film a western then this is the place for you. "
     },
 
     {
         "id":2,
-        "name":"Canyonlands",
-        "city":"Moab",
+        "name":"Wheeler Farm",
+        "city":"Murray",
         "state":"Utah",
-        "tags":"red rock, desert, arches, outside",
-        "gps":"",
-        "imageURL":"img/canyonlands/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
+        "tags":"farm, country, barn, outside, creek, animals, exterior, interior",
+        "address":"6351 South 900 East",
+        "imageURL":"img/wheelerfarm/thumb.jpg",
+        "images":{
+            "image1":"img/wheelerfarm/1.jpg",
+            "image2":"img/wheelerfarm/2.jpg",
+            "image3":"img/wheelerfarm/3.jpg",
+            "image4":"img/wheelerfarm/4.jpg",
+            "image5":"img/wheelerfarm/5.jpg",
+            "image6":"img/wheelerfarm/6.jpg"
+        },
+        "dateListed":"2014-07-02 07:45:00",
+        "description":"This historic farm has a house, multiple barns, a pond, a river, and fields. This is a popular place for photographs for any event. There are beautiful trees and brick for back drops."
     },
 
     {
         "id":3,
-        "name":"Wheeler Farm",
-        "city":"Murray",
+        "name":"Salt Flats",
+        "city":"Wendover",
         "state":"Utah",
-        "tags":"farm, country, barn, outside, creek, animals",
-        "gps":"",
-        "imageURL":"img/wheelerfarm/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
+        "tags":"space, flat, water, sand, outside, exterior",
+        "address":"La: 40.801966, Lo: -113.691878",
+        "imageURL":"img/saltflats/thumb.jpg",
+        "images":{
+            "image1":"img/saltflats/1.jpg",
+            "image2":"img/saltflats/2.jpg",
+            "image3":"img/saltflats/3.jpg",
+            "image4":"img/saltflats/4.jpg",
+            "image5":"img/saltflats/5.jpg",
+            "image6":"img/saltflats/6.jpg"
+        },
+        "dateListed":"2014-06-02 07:45:00",
+        "description":"If you want a great place to film or photograph your next car add then you need to check out the Salt Flats. There is a wide area to drive around. This location would be great for a space film too! "
     },
 
     {
         "id":4,
-        "name":"Salt Flats",
-        "city":"Wendover",
+        "name":"Snowbird Ski Resort",
+        "city":"Snowbird",
         "state":"Utah",
-        "tags":"space, flat, water, sand, outside",
-        "gps":"",
-        "imageURL":"img/saltflats/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
+        "tags":"snow, lodge, christmas, ski, snowboard, cabin, trails,  outside, exterior, interior",
+        "address":"9385 S. Snowbird Center Dr.",
+        "imageURL":"img/snowbird/thumb.jpg",
+        "images":{
+            "image1":"img/snowbird/1.jpg",
+            "image2":"img/snowbird/2.jpg",
+            "image3":"img/snowbird/3.jpg",
+            "image4":"img/snowbird/4.jpg",
+            "image5":"img/snowbird/5.jpg",
+            "image6":"img/snowbird/6.jpg"
+        },
+        "dateAdded":"2014-05-02 07:45:00",
+        "description":"If you need snow, a forest, a resort, or an upscale hotel you will want to film at Snowbird. Snowbird is open year round so you can film in the winter or summer."
     },
 
     {
         "id":5,
-        "name":"Snowbird Ski Resort",
-        "city":"Snowbird",
-        "state":"Utah",
-        "tags":"snow, lodge, christmas, ski, snowboard, cabin, trails,  outside",
-        "gps":"",
-        "imageURL":"img/snowbird/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
+        "name":"The Venetian",
+        "city":"Las Vegas",
+        "state":"Nevada",
+        "tags":"casino, water, boats, art, exterior, interior",
+        "address":"3355 South Las Vegas Boulevard",
+        "imageURL":"img/venetian/thumb.jpg",
+        "images":{
+            "image1":"img/venetian/1.jpg",
+            "image2":"img/venetian/2.jpg",
+            "image3":"img/venetian/3.jpg",
+            "image4":"img/venetian/4.jpg",
+            "image5":"img/venetian/5.jpg",
+            "image6":"img/venetian/6.jpg"
+        },
+        "dateAdded":"2014-03-02 07:45:00",
+        "description":"Want the look of Europe without the cost? Visit the Venetian film and take pictures."
     },
 
     {
         "id":6,
-        "name":"Great Salt Lake",
+        "name":"Salt Lake City Library",
         "city":"Salt Lake City",
         "state":"Utah",
-        "tags":"lake, boats, island, outside",
-        "gps":"",
-        "imageURL":"img/greatsaltlake/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
+        "tags":"lobby, stores, library, glass, inside, urban, exterior, interior",
+        "address":"210 East 400 South",
+        "imageURL":"img/slclibrary/thumb.jpg",
+        "images":{
+            "image1":"img/slclibrary/1.jpg",
+            "image2":"img/slclibrary/2.jpg",
+            "image3":"img/slclibrary/3.jpg",
+            "image4":"img/slclibrary/4.jpg",
+            "image5":"img/slclibrary/5.jpg",
+            "image6":"img/slclibrary/6.jpg"
+        },
+        "dateAdded":"2014-02-02 07:45:00",
+        "description":"Want some very modern architecture? Visit the Salt Lake City Library for a unique exterior and beautiful interior. "
     },
 
     {
         "id":7,
-        "name":"Spiral Jetty",
-        "city":"Salt Lake City",
+        "name":"Park City's Main Street",
+        "city":"Park City",
         "state":"Utah",
-        "tags":"lake, water, art, outside",
-        "gps":"",
-        "imageURL":"img/spiraljetty/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
+        "tags":"street, stores, town, outside, exterior",
+        "address":"825 Main St",
+        "imageURL":"img/parkcitymain/thumb.jpg",
+        "images":{
+            "image1":"img/parkcitymain/1.jpg",
+            "image2":"img/parkcitymain/2.jpg",
+            "image3":"img/parkcitymain/3.jpg",
+            "image4":"img/parkcitymain/4.jpg",
+            "image5":"img/parkcitymain/5.jpg",
+            "image6":"img/parkcitymain/6.jpg"
+        },
+        "dateAdded":"2014-01-02 07:45:00",
+        "description":"Park City has the best vintage main street around. If you want a small town look visit Park City."
     },
 
     {
         "id":8,
-        "name":"Salt Lake City Library",
-        "city":"Salt Lake City",
-        "state":"Utah",
-        "tags":"lobby, stores, library, glass, inside, urban",
-        "gps":"",
-        "imageURL":"img/slclibrary/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
+        "name":"Hoover Dam",
+        "city":"Boulder City",
+        "state":"Nevada",
+        "tags":"dam, water, cave, machine, exterior, interior",
+        "address":"La: 36.016066, Lo: -114.737732",
+        "imageURL":"img/hooverdam/thumb.jpg",
+        "images":{
+            "image1":"img/hooverdam/1.jpg",
+            "image2":"img/hooverdam/2.jpg",
+            "image3":"img/hooverdam/3.jpg",
+            "image4":"img/hooverdam/4.jpg",
+            "image5":"img/hooverdam/5.jpg",
+            "image6":"img/hooverdam/6.jpg"
+        },
+        "dateAdded":"2013-12-02 07:45:00",
+        "description":"The Hoover Dam is available for exterior and interior shots."
     },
 
     {
         "id":9,
-        "name":"Main Street",
-        "city":"Park City",
-        "state":"Utah",
-        "tags":"street, stores, town, outside",
-        "gps":"",
-        "imageURL":"img/parkcitymain/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
-    },
-
-    {
-        "id":10,
-        "name":"Fashion Place Mall",
-        "city":"Murray",
-        "state":"Utah",
-        "tags":"mall, stores, fashion, inside",
-        "gps":"",
-        "imageURL":"img/fashionplace/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
-    },
-
-    {
-        "id":10,
         "name":"McKay-Dee Hospital",
         "city":"Ogden",
         "state":"Utah",
-        "tags":"lobby, medical, hospital, office, inside",
-        "gps":"",
+        "tags":"lobby, medical, hospital, office, inside, exterior, interior",
+        "address":"4401 Harrison Blvd",
         "imageURL":"img/mckayhospital/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
+        "images":{
+            "image1":"img/mckayhospital/1.jpg",
+            "image2":"img/mckayhospital/2.jpg",
+            "image3":"img/mckayhospital/3.jpg",
+            "image4":"img/mckayhospital/4.jpg",
+            "image5":"img/mckayhospital/5.jpg",
+            "image6":"img/mckayhospital/6.jpg"
+        },
+        "dateAdded":"2014-04-05 07:45:00",
+        "description":"Rated the most beautiful hospital in America, the McKay-Dee Hospital is perfect for all of your medial scenes. "
+    },
+
+    {
+        "id":10,
+        "name":"Grand America Hotel",
+        "city":"Salt Lake City",
+        "state":"Utah",
+        "tags":"hotel, dining room, fancy, lobby, inside, exterior, interior",
+        "address":"555 South Main Street",
+        "imageURL":"img/grandamerica/thumb.jpg",
+        "images":{
+            "image1":"img/grandamerica/1.jpg",
+            "image2":"img/grandamerica/2.jpg",
+            "image3":"img/grandamerica/3.jpg",
+            "image4":"img/grandamerica/4.jpg",
+            "image5":"img/grandamerica/5.jpg",
+            "image6":"img/grandamerica/6.jpg"
+        },
+        "dateAdded":"2014-06-08 07:45:00",
+        "description":"Need a mansion exterior, an expensive hotel, or palace? The Grand America Hotel will be perfect for you."
     },
 
     {
         "id":11,
-        "name":"Grand America Hotel",
-        "city":"Salt Lake City",
-        "state":"Utah",
-        "tags":"hotel, dining room, fancy, lobby, inside",
-        "gps":"",
-        "imageURL":"img/grandamerica/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
-    },
-
-    {
-        "id":12,
-        "name":"UCCU Center UVU",
+        "name":"Utah Valley University",
         "city":"Orem Utah",
         "state":"Utah",
-        "tags":"university, school, events center, basketball court, inside",
-        "gps":"",
+        "tags":"university, school, events center, basketball court, inside, exterior, interior",
+        "address":"800 West University Parkway",
         "imageURL":"img/uccucenter/thumb.jpg",
-        "dateListed":"2014-08-02 07:45:00"
+        "images":{
+            "image1":"img/uccucenter/1.jpg",
+            "image2":"img/uccucenter/2.jpg",
+            "image3":"img/uccucenter/3.jpg",
+            "image4":"img/uccucenter/4.jpg",
+            "image5":"img/uccucenter/5.jpg",
+            "image6":"img/uccucenter/6.jpg"
+        },
+        "dateAdded":"2014-03-09 07:45:00",
+        "description":"UVU offers a basketball court, baseball diamond, student center, lecture halls and much more. If your film is set at a school you will want to film at this very modern university."
     }
 
 

@@ -1,28 +1,31 @@
 <ion-view title="Find A Location">
-  <ion-content>
-     <div class="list list-inset">
-        <label class="item item-input">
-            <i class="icon ion-search placeholder-icon"></i>
-            <input type="text" ng-model="query" placeholder="name, city, state, or tag">
-        </label>
-     </div>
+    <ion-content>
+        <div class="list list-inset">
+            <label class="item item-input">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="text" ng-model="query" placeholder="name, city, state, or tag">
+            </label>
 
-     <div class="list">
+            <div class="row">
 
-      <a ng-repeat="location in locations | filter:query | orderBy:orderProp"
-          href="#/tab/friend/{{places.id}}" class="item item-icon-right item-thumbnail-right row">
-           <i class="icon ion-ios7-arrow-right"></i>
+                <select class="button button-stable col col-100" ng-model="orderProp">
+                    <option value="-dateAdded">Newest Listing</option>
+                    <option value="dateAdded">Oldest Listing</option>
+
+                </select>
+            </div>
+        </div>
+
+        <div class="list">
+
+            <a ng-repeat="location in locations | filter:query | orderBy:orderProp"
+               href="#/tab/location/{{location.id}}" class="item item-icon-right item-thumbnail-right row">
+                <i class="icon ion-ios7-arrow-right"></i>
                 <img class="col col-25" ng-src="{{location.imageURL}}">
-           <h2 class="col col-75">{{location.name}}<br> {{location.city}} <br> {{location.state}} <br> Tags: {{location.tags}}</h2>
-      </a>
 
-     </div>
+                <h2 class="col col-75">{{location.name}}<br> City: {{location.city}} <br> State: {{location.state}}</h2>
+            </a>
 
-     <!--Original Code From Template Below-->
-     <!-- <ion-list>
-      <ion-item ng-repeat="friend in friends" type="item-text-wrap" href="#/tab/friend/{{friend.id}}">
-        {{friend.name}}
-      </ion-item>
-    </ion-list>  -->
-  </ion-content>
+        </div>
+    </ion-content>
 </ion-view>
