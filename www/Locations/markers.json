@@ -1,0 +1,15 @@
+marker =[
+{
+"name": "UVU",
+"url": "https://en.wikipedia.org/wiki/Canada",
+"lat": 40.279199,
+"lng": -111.711050
+},
+{
+"name": "Anguilla",
+"url": "https://en.wikipedia.org/wiki/Anguilla",
+"lat": 18.220554,
+"lng": -63.068615
+}
+
+]

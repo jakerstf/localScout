@@ -45,24 +45,44 @@ angular.module('starter.controllers', [])
 
     .controller('AccountCtrl', function ($scope) {
 
-        var map = L.map('map').setView([40.279199, -111.711050], 16);
+        var map = L.map('map').setView([40.274274, -111.692505], 14);
+        mapLink =
+            '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+        L.tileLayer(
+            'http://{s}.tiles.mapbox.com/v3/jakerstf.kf18f1d5/{z}/{x}/{y}.png', {
+                attribution: 'Map data &copy; ' + mapLink,
+                maxZoom: 18
+            }).addTo(map);
+        new L.Marker(new L.LatLng(40.274274, -111.692505))
+            .addTo(map)
+            .bindPopup("<b>Car Dealer</b><br>Search: cars, auto, dealer...")
+            .openPopup();
 
-        L.tileLayer('http://{s}.tiles.mapbox.com/v3/jakerstf.kf18f1d5/{z}/{x}/{y}.png', {
-            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-            maxZoom: 18
-        }).addTo(map);
+        new L.Marker(new L.LatLng(40.280747, -111.726172))
+            .addTo(map)
+            .bindPopup("<b>Orem Train Station</b><br>Search: train, tracks, station...")
+            .openPopup();
 
-        L.marker([40.274274, -111.692505]).addTo(map)
-            .bindPopup("<b>Honda Dealer</b><br />Search: cars, auto, dealer...").openPopup();
+        new L.Marker(new L.LatLng(40.273841, -111.753101))
+            .addTo(map)
+            .bindPopup("<b>Utah Lake</b><br>Search: lake, utah, water...")
+            .openPopup();
 
-        L.marker([40.273841, -111.753101]).addTo(map)
-            .bindPopup("<b>Utah Lake</b><br />Search: lake, utah, water...").openPopup();
+        new L.Marker(new L.LatLng(40.279199, -111.711050))
+            .addTo(map)
+            .bindPopup("<b>UVU</b><br>Search: university, school, education...")
+            .openPopup();
 
-        L.marker([40.280747, -111.726172]).addTo(map)
-            .bindPopup("<b>Orem Train Station</b><br />Search: train, tracks, station...").openPopup();
 
-        L.marker([40.279199, -111.711050]).addTo(map)
-            .bindPopup("<b>UVU</b><br />Search: university, school, education...").openPopup();
+        map.locate({setView: true, maxZoom: 15});
+
+        map.on('locationfound', onLocationFound);
+
+        function onLocationFound(e) {
+            // create a marker at the users "latlng" and add it to the map
+            L.marker(e.latlng).addTo(map);
+        }
+
 
     })
 
