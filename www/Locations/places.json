@@ -215,7 +215,7 @@
             "image5":"img/grandamerica/5.jpg",
             "image6":"img/grandamerica/6.jpg"
         },
-        "dateAdded":"2014-06-08 07:45:00",
+        "dateAdded":"2014-06-22 07:45:00",
         "description":"Need a mansion exterior, an expensive hotel, or palace? The Grand America Hotel will be perfect for you."
     },
 
@@ -235,8 +235,68 @@
             "image5":"img/uccucenter/5.jpg",
             "image6":"img/uccucenter/6.jpg"
         },
-        "dateAdded":"2014-03-09 07:45:00",
+        "dateAdded":"2013-02-14 07:45:00",
         "description":"UVU offers a basketball court, baseball diamond, student center, lecture halls and much more. If your film is set at a school you will want to film at this very modern university."
+    },
+
+    {
+        "id": 12,
+        "name": "Ken Garff Honda",
+        "city": "Orem Utah",
+        "state": "Utah",
+        "tags": "dealership, dealer, cars, car, vehicle, car, truck, van, business, exterior, interior",
+        "address": "115 East University Parkway",
+        "imageURL": "img/dealer/thumb.jpg",
+        "images": {
+            "image1": "img/dealer/1.jpg",
+            "image2": "img/dealer/2.jpg",
+            "image3": "img/dealer/3.jpg",
+            "image4": "img/dealer/4.jpg",
+            "image5": "img/dealer/5.jpg",
+            "image6": "img/dealer/6.jpg"
+        },
+        "dateAdded": "2014-07-23 07:45:00",
+        "description": "UVU offers a basketball court, baseball diamond, student center, lecture halls and much more. If your film is set at a school you will want to film at this very modern university."
+    },
+
+    {
+        "id": 13,
+        "name": "Utah Lake",
+        "city": "Orem Utah",
+        "state": "Utah",
+        "tags": "water, boating, beach, mountians, exterior",
+        "address": "La: 40.273841, Lo: -111.753101",
+        "imageURL": "img/ulake/thumb.jpg",
+        "images": {
+            "image1": "img/ulake/1.jpg",
+            "image2": "img/ulake/2.jpg",
+            "image3": "img/ulake/3.jpg",
+            "image4": "img/ulake/4.jpg",
+            "image5": "img/ulake/5.jpg",
+            "image6": "img/ulake/6.jpg"
+        },
+        "dateAdded": "2014-03-15 07:45:00",
+        "description": "UVU offers a basketball court, baseball diamond, student center, lecture halls and much more. If your film is set at a school you will want to film at this very modern university."
+    },
+
+    {
+        "id": 14,
+        "name": "Orem Train Station",
+        "city": "Orem Utah",
+        "state": "Utah",
+        "tags": "university, school, train, tracks, station, exterior",
+        "address": "1350 W 900 S",
+        "imageURL": "img/train/thumb.jpg",
+        "images": {
+            "image1": "img/train/1.jpg",
+            "image2": "img/train/2.jpg",
+            "image3": "img/train/3.jpg",
+            "image4": "img/train/4.jpg",
+            "image5": "img/train/5.jpg",
+            "image6": "img/train/6.jpg"
+        },
+        "dateAdded": "2013-03-22 07:45:00",
+        "description": "Need a public place, a train station, or a place near the freeway? This is your locaiton."
     }
 
 

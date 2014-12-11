@@ -5,22 +5,22 @@ angular.module('starter.services', [])
  */
 
     .factory('Places', function($http) {
-        // Might use a resource here that returns a JSON array
+    // Might use a resource here that returns a JSON array
 
-        // Adding http request to load json file
-        var places = [];
-        $http.get('Locations/places.json').success(function(data){
-            places = data;
-        });
-
-        return {
-            all: function() {
-                return places;
-            },
-            get: function(locationId) {
-                // Simple index lookup
-                return places[locationId];
-            }
-        }
+    // Adding http request to load json file
+    var places = [];
+    $http.get('Locations/places.json').success(function(data){
+        places = data;
     });
+
+    return {
+        all: function() {
+            return places;
+        },
+        get: function(locationId) {
+            // Simple index lookup
+            return places[locationId];
+        }
+    }
+});
 
