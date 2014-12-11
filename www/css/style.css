@@ -1,3 +1,28 @@
-/* Empty. Add your own CSS if you like */
+/* App CSS*/
 
-h1.title{text-align: center;}
+h2.intro {
+    padding-top: .50em;
+    padding-bottom: .50em;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.info {
+    margin-top: 2em;
+}
+
+#map {
+    height: 500px;
+}
+
+/*Landing page border*/
+.border {
+    background-color: rgba(0, 0, 0, 0.1);
+}
